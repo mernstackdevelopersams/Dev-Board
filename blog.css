@@ -1,0 +1,50 @@
+#header,
+main {
+    max-width: 70%;
+    margin: auto;
+}
+
+#navigation-desk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+#nav1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.brand-name {
+    font-size: 35px;
+}
+
+#board {
+    font-weight: 800;
+}
+
+#back-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#blogs {
+    text-align: center;
+}
+.blog-qus {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}

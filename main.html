@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Board</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav id="navigation-bar">
+
+            <div id="nav1">
+                <img src="assets/logo.png" alt="">
+                <p class="brand-name">Dev<span id="board">Board</span></p>
+            </div>
+            <div id="nav2">
+                <img src="assets/checkbox.png" alt="">
+                <h1 id="task-completed">23</h1>
+                <img id="theme-btn" src="assets/theme-btn.png" alt="">
+            </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main id="main">
+
+        <section id="task-section"">
+            <div id="overview">
+            <div class="card">
+                <img src="assets/checkbox.png" alt="">
+                <div>
+                    <p>Task Assigned</p>
+                    <h2 id="task-done">6</h2>
+                </div>
+            </div>
+
+            <div id="discover">
+                <img src="assets/board.png" alt="">
+                <p>Discover Something <br> New Today!</p>
+            </div>
+
+            <div class="date">
+                <img id="date-img" src="assets/calender.png" alt="">
+                <p id="date"></p>
+            </div>
+            </div>
+
+
+            <div class="task-container">
+                <div class="task-card">
+                    <div class="badge">ShopEase</div>
+                    <h4 class="tasks-name">Fix Mobile Button Issue</h4>
+                    <p>Debug using Chrome DevTools, check for overlapping...</p>
+                    <div class="deadline-status">
+                        <div class="deadline">Deadline: 21 March 2025</div>
+                        <button id="status-done1" class="status">Completed</button>
+                    </div>
+                </div>
+
+                <div class="task-card">
+                    <div class="badge">CloudSync</div>
+                    <h4 class="tasks-name">Add Dark Mode</h4>
+                    <p>Store the user's preference in localStorage, update CSS vari...</p>
+                    <div class="deadline-status">
+                        <div class="deadline">Deadline: 21 March 2025</div>
+                        <button id="status-done2" class="status">Completed</button>
+                    </div>
+                </div>
+
+                <div class="task-card">
+                    <div class="badge">SwiftPay</div>
+                    <h4 class="tasks-name">Optimize Home Page</h4>
+                    <p>Debug using Chrome DevTools, check for overlapping...</p>
+                    <div class="deadline-status">
+                        <div class="deadline">Deadline: 21 March 2025</div>
+                        <button class="status">Completed</button>
+                    </div>
+                </div>
+
+                <div class="task-card">
+                    <div class="badge">Meta</div>
+                    <h4 class="tasks-name">Add new emoji ✌️</h4>
+                    <p>Debug using Chrome DevTools, check for overlapping...</p>
+                    <div class="deadline-status">
+                        <div class="deadline">Deadline: 21 March 2025</div>
+                        <button class="status">Completed</button>
+                    </div>
+                </div>
+
+                <div class="task-card">
+                    <div class="badge">Google LLC</div>
+                    <h4 class="tasks-name">Integrate OpenAI API</h4>
+                    <p>Debug using Chrome DevTools, check for overlapping...</p>
+                    <div class="deadline-status">
+                        <div class="deadline">Deadline: 21 March 2025</div>
+                        <button class="status">Completed</button>
+                    </div>
+                </div>
+
+                <div class="task-card">
+                    <div class="badge">Glassdoor</div>
+                    <h4 class="tasks-name">Improve Job Searching</h4>
+                    <p>Debug using Chrome DevTools, check for overlapping...</p>
+                    <div class="deadline-status">
+                        <div class="deadline">Deadline: 21 March 2025</div>
+                        <button class="status">Completed</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="activity-container">
+            <div class="activity-log">
+                <img src="assets/activity.png" alt="">
+                <p>Activity Log</p>
+            </div>
+            <button id="btn-clear-history">Clear History</button>
+            <div id="activity"></div>
+        </section>
+
+    </main>
+
+    <script src="JavaScript/main.js"></script>
+</body>
+
+</html>
